@@ -1,0 +1,7 @@
+{
+  "animals": [
+    {"race": "dog", "name": "Petralha"},
+    {"race": "dog", "name": "Coxinha"},
+    {"race": "dog", "name": "Toddy"}
+  ]
+}
