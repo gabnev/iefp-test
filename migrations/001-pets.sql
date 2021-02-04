@@ -13,7 +13,7 @@ CREATE TABLE Animal (
 );
 
 INSERT INTO User (name, email) values ('Gabs', 'gabs@gabs.com');
-INSERT INTO Person (name, email) values ('Stella', 'stella@stella.com');
+INSERT INTO User (name, email) values ('Stella', 'stella@stella.com');
 
 INSERT INTO Animal (race, name, ownerId) values('dog', 'Coxinha', 1);
 INSERT INTO Animal (race, name, ownerId) values('dog', 'Petralha', 1);
