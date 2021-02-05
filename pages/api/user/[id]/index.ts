@@ -11,7 +11,7 @@ const getUserById = async (req: NextApiRequest, res: NextApiResponse) => {
 
   if (req.method === "PUT") {
     const statement = await db.prepare(
-      "UPDATE person SET name= ?, email= ?, where id = ?"
+      "UPDATE User SET name= ?, email= ?, where id = ?"
     );
     const result = await statement.run(
       req.body.name,
