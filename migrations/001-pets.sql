@@ -2,7 +2,8 @@
 CREATE TABLE User (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
-    email TEXT
+    email TEXT,
+    password TEXT
 );
 
 CREATE TABLE Animal (
